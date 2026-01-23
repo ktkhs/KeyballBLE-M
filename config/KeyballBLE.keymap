@@ -52,7 +52,7 @@
         default_layer {
             bindings = <
 &kp TAB                  &kp Q     &kp W     &kp E         &kp R        &kp T                                                    &kp Y             &kp U  &kp I      &kp O    &kp P          &kp EQUAL
-&kp LEFT_CONTROL         &kp A     &kp S     &kp D         &kp F        &kp G             &mkp MCLK           &kp UP_ARROW       &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON  &kp ENTER
+&kp LEFT_CONTROL         &kp A     &kp S     &kp D         &kp F        &kp G             &mkp MCLK           &kp SQT            &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON  &kp ENTER
 &kp LSHFT                &kp Z     &kp X     &kp C         &kp V        &kp B             &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N             &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt RSHFT MINUS
 &mt LEFT_CONTROL ESCAPE  &kp LGUI  &kp LALT  &kp LEFT_ALT  &lt 3 SPACE  &lt 2 LANGUAGE_2  &mkp MB1            &lt 4 SPACE        &lt 1 LANGUAGE_1                             &lt 6 GRAVE    &kp NON_US_BACKSLASH
             >;
@@ -71,10 +71,10 @@
 
         NUM {
             bindings = <
-&trans  &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                                 &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT            &trans
-&trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH          &trans
-&trans  &trans                      &trans           &trans           &trans           &trans        &trans                     &trans          &trans                                                                     &kp PIPE               &trans
+&trans  &kp N1           &kp N2       &kp N3    &kp N4      &kp N5                               &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp MINUS    &kp EQUAL  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp NON_US_BACKSLASH
+&trans  &kp F1           &kp F2       &kp F3    &kp F4      &kp F5       &trans       &trans     &kp F6     &kp F7         &kp F8        &kp F9                &kp F10                &kp F11
+&trans  &trans           &trans       &trans    &trans      &trans       &trans       &trans     &trans                                                        &kp PIPE               &kp F12
             >;
         };
 
