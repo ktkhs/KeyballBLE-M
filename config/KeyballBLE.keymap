@@ -58,10 +58,10 @@
 
         default_layer {
             bindings = <
-&lt 6 ESC  &kp Q     &kp W     &kp E          &kp R           &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P      &kp BSPC
-&kp TAB    &kp A     &kp S     &kp D          &kp F           &kp G        &mkp MCLK          &kp UP_ARROW    &kp H        &kp J  &kp K      &kp L    &kp MINUS  &kp ENTER
-&kp LSHFT  &kp B     &kp X     &kp C          &kp V           &kp B        &kp DELETE         &kp DOWN_ARROW  &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH   &kp RSHFT
-&kp LCTRL  &kp LGUI  &kp LALT  &kp LC(SPACE)  &kp LEFT_ARROW  &lt 2 SPACE  &kp RIGHT_ARROW    &kp BACKSPACE   &lt 1 ENTER                             &kp DEL    &kp RCTRL
+&kp TAB                  &kp Q     &kp W     &kp E         &kp R        &kp T                                                    &kp Y             &kp U  &kp I      &kp O    &kp P          &kp EQUAL
+&kp LEFT_CONTROL         &kp A     &kp S     &kp D         &kp F        &kp G             &mkp MCLK           &kp UP_ARROW       &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON  &kp ENTER
+&kp LSHFT                &kp Z     &kp X     &kp C         &kp V        &kp B             &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N             &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt RSHFT MINUS
+&mt LEFT_CONTROL ESCAPE  &kp LGUI  &kp LALT  &kp LEFT_ALT  &lt 3 SPACE  &lt 2 LANGUAGE_2  &mkp MB1            &lt 4 SPACE        &lt 1 LANGUAGE_1                             &lt 6 GRAVE    &kp NON_US_BACKSLASH
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
