@@ -54,7 +54,7 @@
 &kp TAB                  &kp Q     &kp W     &kp E         &kp R        &kp T                                                    &kp Y             &kp U  &kp I      &kp O    &kp P          &kp EQUAL
 &kp LEFT_CONTROL         &kp A     &kp S     &kp D         &kp F        &kp G             &mkp MCLK           &kp SQT            &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON  &kp ENTER
 &kp LSHFT                &kp Z     &kp X     &kp C         &kp V        &kp B             &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp N             &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt RSHFT MINUS
-&mt LEFT_CONTROL ESCAPE  &kp LGUI  &kp LALT  &kp LEFT_ALT  &lt 3 SPACE  &lt 2 LANGUAGE_2  &mkp MB1            &lt 4 SPACE        &lt 1 LANGUAGE_1                             &lt 6 GRAVE    &kp NON_US_BACKSLASH
+&mt LEFT_CONTROL ESCAPE  &kp LGUI  &kp LALT  &kp LEFT_ALT  &lt 3 SPACE  &lt 2 LANGUAGE_2  &mkp MB1            &lt 4 SPACE        &lt 2 LANGUAGE_1                             &lt 6 GRAVE    &kp NON_US_BACKSLASH
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -91,10 +91,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans       &trans  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LG(R)                      &kp LG(R)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans  &trans       &trans
-&trans  &lt 5 SPACE  &trans  &mkp MB1         &mkp MB2           &mkp MB3   &mkp MB3    &trans  &mkp MB3   &mkp MB1         &mkp MB2           &trans  &lt 5 SPACE  &trans
-&trans  &trans       &trans  &trans           &trans             &trans     &trans      &trans  &trans     &mkp MB4         &mkp MB5           &trans  &trans       &trans
-&trans  &trans       &trans  &trans           &trans             &trans     &trans      &trans  &trans                                                 &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans    &trans    &trans    &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB3  &mkp MB1  &mkp MB2  &trans  &lt 5 SPACE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &mkp MB4  &mkp MB5  &trans  &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans       &trans
             >;
         };
 
