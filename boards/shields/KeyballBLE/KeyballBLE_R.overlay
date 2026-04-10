@@ -64,7 +64,6 @@
         zephyr,axis-y = <INPUT_REL_X>;
         res-cpi = <600>;
         invert-x;
-        invert-y;
 
         force-awake;
     };
